@@ -335,6 +335,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Flappy Bird.csproj">
+      <Project>{0DA61185-81B2-BF17-2A51-7A51222133F6}</Project>
+      <Name>Flappy Bird</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="C:\Users\user\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.standardevents@1.0.13\Editor\Importer.cs" />
   </ItemGroup>
   <ItemGroup>

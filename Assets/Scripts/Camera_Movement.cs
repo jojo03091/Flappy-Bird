@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Camera_Movement : MonoBehaviour {
 
-    [SerializeField]
-    public float MoveSpeed = 4;
+    public Transform target;
+    private Vector3 offset;
 
     // Use this for initialization
     void Start () {
-		
-	}
+        offset = target.position - this.transform.position;
+    }
 
     // Update is called once per frame
     void FixedUpdate(){
 
         //Move
-        transform.Translate(Time.deltaTime * MoveSpeed, 0, 0);
+        this.transform.position = target.position - offset;
 
     }
 }

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flappy Bird", "Flappy Bird.csproj", "{0DA61185-81B2-BF17-2A51-7A51222133F6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flappy Bird.Editor", "Flappy Bird.Editor.csproj", "{1DE26305-48AE-1A69-719C-E0A3059CE218}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flappy Bird.Editor", "Flappy Bird.Editor.csproj", "{1DE26305-48AE-1A69-719C-E0A3059CE218}"
 EndProject
@@ -21,12 +21,11 @@ Global
 		{1DE26305-48AE-1A69-719C-E0A3059CE218}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DE26305-48AE-1A69-719C-E0A3059CE218}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DE26305-48AE-1A69-719C-E0A3059CE218}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1DE26305-48AE-1A69-719C-E0A3059CE218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DE26305-48AE-1A69-719C-E0A3059CE218}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DE26305-48AE-1A69-719C-E0A3059CE218}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DE26305-48AE-1A69-719C-E0A3059CE218}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC6EC2B9-EE4B-4266-8751-33CD66AFAD5C}
 	EndGlobalSection
 EndGlobal

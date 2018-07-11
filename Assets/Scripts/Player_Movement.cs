@@ -5,9 +5,6 @@ using UnityEngine;
 public class Player_Movement : MonoBehaviour {
 
     [SerializeField]
-    public float MoveSpeed = 4;
-
-    [SerializeField]
     public int JumpHigh = 500;
 
     [SerializeField]
@@ -22,9 +19,6 @@ public class Player_Movement : MonoBehaviour {
 
     // Update is called once per frame
     void FixedUpdate () {
-
-        //Move
-        transform.Translate(Time.deltaTime * MoveSpeed, 0, 0);
 
         //Press SPACE to jump
         if (Input.GetMouseButtonDown(0))

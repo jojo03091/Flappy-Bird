@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_Collision : MonoBehaviour {
 
@@ -18,7 +19,8 @@ public class Player_Collision : MonoBehaviour {
     {
         if (hitwall.gameObject.tag == "wall") //如果hitwall碰撞事件的物件標籤名稱是wall
         {
-            Time.timeScale = 0;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            //Time.timeScale = 0;
         }
     }
 }

@@ -25,7 +25,7 @@ public class Wall_Movement : MonoBehaviour {
         Y = GetComponent<Transform>().position.y;
 
         //Destroy the wall
-        if (X < -11) {
+        if (X < -15) {
             Destroy(gameObject);
         }
     }

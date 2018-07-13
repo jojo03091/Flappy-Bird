@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/user/Desktop/Desktop.exe
+C:/Users/user/Desktop/Unity Test/Unity Test.exe
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
@@ -147,6 +147,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Player_Collision
+cdda4f95bd9d5fd42cb1a1b5877d3a0a Assembly-CSharp.dll:.Player_Collision
 a1e0fdfb021fa9943bc07f22a7b80022 Assembly-CSharp.dll:.Wall_Movement
 7d140898795919203d3bcddee4504dd7 Assembly-CSharp.dll:.Create_Wall
+5c2f47a97407af194caee3319b91f741 Assembly-CSharp.dll:.Score_controls
